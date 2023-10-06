@@ -1,0 +1,21 @@
+li::after {
+    content: "Web Design";
+    position: absolute;
+    top: 0;
+    height : auto;
+    left: 0;
+    color : pink;
+    width: 0px;
+    overflow: hidden;
+  }
+
+
+li::hover {
+    animation: moveText 0.5s linear ;
+}
+
+@keyframes moveText {
+    to{
+        width: 100%;
+    }
+}
