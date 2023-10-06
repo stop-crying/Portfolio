@@ -21,6 +21,10 @@ const Section = styled.div`
   color: black;
   font-size: 14px;
   font-weight: 300;
+
+  @media only screen and (max-width: 414px) {
+   margin-top: 100px;
+  }
 `;
 
 const Container = styled.div`
