@@ -14,6 +14,7 @@ const Section = styled.div`
 
   @media only screen and (max-width: 414px) {
     height: 200vh;
+    margin-top; 100px;
   }
 `;
 

@@ -23,7 +23,7 @@ const Section = styled.div`
   font-weight: 300;
 
   @media only screen and (max-width: 414px) {
-   margin-top: 100px;
+   margin-top: 200px;
   }
 `;
 
